@@ -85,7 +85,7 @@ describe('subset', function () {
 
     it('should has whitespace when trim false', function () {
 
-        var TTFReader = require('fonteditor-core').TTFReader;
+        var TTFReader = require('@bbqaaq/fonteditor-core').TTFReader;
         var b2ab = require('b3b').b2ab;
         var ttf = new TTFReader().read(b2ab(mined));
 
